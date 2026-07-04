@@ -40,8 +40,12 @@
     text-wrap:balance;margin-bottom:1rem}
   .subtitle{font-size:clamp(18px,2.6vw,22px);color:var(--ink-soft);font-weight:500;
     line-height:1.5;text-wrap:balance;margin-bottom:2rem}
+  .hero-tags{display:flex;flex-direction:column;gap:.35rem;margin-top:1.7rem;
+    font-family:var(--mono);font-size:13px;line-height:1.55;letter-spacing:.01em}
+  .hero-tags span:nth-child(1){color:var(--accent-deep);font-weight:500}
+  .hero-tags span:nth-child(2){color:var(--ink-faint)}
   .meta{display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;font-size:14px;color:var(--ink-faint);
-    padding-top:1.4rem;border-top:1px solid var(--line-soft)}
+    margin-top:1.7rem;padding-top:1.4rem;border-top:1px solid var(--line-soft)}
   .meta b{color:var(--ink-soft);font-weight:600}
 
   /* sections */
@@ -188,9 +192,13 @@
     <div class="signal"><i class="r"></i><i class="a"></i><i class="g"></i><span class="kicker">Case Study · Agentic AI × SAP Fiori</span></div>
     <h1>AI 에이전트와 함께한 SAP Fiori 앱 개발기</h1>
     <p class="subtitle">대리점 매출현황 — 요청서 한 장에서 개발 완료까지</p>
+    <div class="hero-tags">
+      <span>Agentic AI · Skill · MCP · Fiori Custom Page (FPM)</span>
+      <span>CDS + RAP · OData V4 · Fiori Elements · SAPUI5 1.149</span>
+    </div>
     <div class="meta">
       <span><b>문서 목적</b> · Agentic AI(Skill·Agent·MCP)를 SAP Fiori 개발에 실제 적용한 사례 공유</span>
-      <span><b>작성</b> · 2026-07 · 강우주</span>
+      <span><b>작성</b> · 강우주 (Megazone Cloud, Dev Unit) · 2026-07</span>
     </div>
   </div>
 </header>
